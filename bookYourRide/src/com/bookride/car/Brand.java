@@ -1,4 +1,4 @@
-package com.bookride.cars;
+package com.bookride.car;
 
 public enum Brand {
     TESLA,

@@ -1,4 +1,4 @@
-package com.bookride.cars;
+package com.bookride.car;
 
 public class CarService {
     private final CarDAO carDAO = new CarDAO();
@@ -37,7 +37,7 @@ public class CarService {
         for(int i =0; i < cars.length; i++) {
             if(cars[i].isElectric()){
                 electricCars[index] = cars[i];
-                index++;
+                ++index;
             }
         }
         return electricCars;
